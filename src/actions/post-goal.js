@@ -22,7 +22,7 @@ export const postGoalError = error => ({
 
 
 export const postUserGoal = (goal, userId) => (dispatch) => {  
-  return fetch(`${API_BASE_URL}/api/users/${userId}`, 
+  return fetch(`${API_BASE_URL}/users/${userId}`, 
   {
     method: 'put',
     headers: {
