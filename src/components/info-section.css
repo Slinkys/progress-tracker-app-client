@@ -1,0 +1,24 @@
+#info {
+  padding: 2rem;
+}
+
+#info:focus {
+  outline: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 648px) {
+  #info p, li {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 649px) and (max-width: 1600px) { 
+  #info p, li {
+  width: 100%;
+  text-align: center;
+  }
+} 
+
+#info li {
+  text-align: center;
+}

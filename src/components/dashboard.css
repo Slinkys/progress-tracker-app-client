@@ -1,0 +1,33 @@
+.dashboard {
+  margin-left: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.progress-form {
+  text-align: center;
+}
+
+.display-progress {
+  text-align: center;
+}
+
+.display-goal {
+  display: inline-block;
+  text-align: left; 
+}
+
+
+.enter-progress {
+  margin-bottom: 5px;
+}
+
+#progress-input {
+  padding: 7px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+

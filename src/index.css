@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  font-family: Helvetica;
+  width: 40rem;
+  height: auto;
+  line-height: 1.25;
+  color: black;
+  background-color: rgb(248, 247, 244);
+}
+
+.setup-form {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: left;
+  margin: auto;
+  width: 100%;
+}
+
+.home {
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 320px) { 
+    body {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }  
+}
+
+@media screen and (max-width: 1600px) { 
+  body{
+    width: 100%;
+    text-align: center;
+  }
+}   
+
+
+
+/* remove margin and padding on form  */

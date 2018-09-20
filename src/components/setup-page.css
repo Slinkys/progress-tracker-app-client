@@ -1,0 +1,45 @@
+.setup-page {
+  color: black;
+}
+
+.daily-goal, .total-days {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-family: Helvetica;
+}
+
+#goal-input, #deadline-input {
+  font-size: 17px;
+}
+
+.button {
+  text-align: center;
+}
+.submit-button {
+  display: inline-block;
+}
+
+.setup-page input {
+  padding: 7px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px; 
+}
+
+@media screen and (min-width: 320px) and (max-width: 648px) {
+  #goal-input, #deadline-input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 648px) and (max-width: 1600px) { 
+  .daily-goal, .total-days {
+  width: 100%;
+  text-align: center;
+  }
+} 
+
+
+
+

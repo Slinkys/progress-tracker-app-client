@@ -1,0 +1,19 @@
+.header-bar {
+  width: 100%;
+  text-align: center;
+} 
+
+h1 {
+  font-weight: 900;
+  font-size: 3em;
+  padding: 0.8em;
+  color: olive;
+  margin-bottom: 20px;
+}
+
+.logOutButton{
+  margin-bottom: 30px;
+  /* position: fixed; */
+  text-align: center;
+  /* left: 0; */
+}   

@@ -1,0 +1,28 @@
+nav {
+  height: 10%;
+  padding: 10px;
+}
+
+.info {
+  float: left;
+  padding: 30px;
+  padding-left: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 648px) { 
+  .info {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }  
+}
+
+@media screen and (min-width: 649px) and (max-width: 1600px) { 
+  .info {
+  width: 100%;
+  text-align: center;
+  }
+} 
+
+
