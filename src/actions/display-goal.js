@@ -1,3 +1,5 @@
+import {API_BASE_URL} from '../config';
+
 export const DISPLAY_GOAL = 'DISPLAY_GOAL';
 export const displayGoal = () => ({
 	type: DISPLAY_GOAL
@@ -15,7 +17,7 @@ export const displayGoalError = error => ({
 	error
 });
 
-const BASE_URL = 'http://localhost:8080';
+// const BASE_URL = 'http://localhost:8080';
 
 
 export const displayUserGoal = (goal, userId) => (dispatch) => {
@@ -24,7 +26,7 @@ export const displayUserGoal = (goal, userId) => (dispatch) => {
   //get properties dailyGoal and totalDays from userId
   //don't need req obj 
   console.log(goal);
-  return fetch(`${BASE_URL}/api/users/${userId}`, 
+  return fetch(`${API_BASE_URL}/api/users/${userId}`, 
   {
     method: 'get',
     headers: {

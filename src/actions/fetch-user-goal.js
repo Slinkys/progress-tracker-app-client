@@ -1,3 +1,5 @@
+import {API_BASE_URL} from '../config';
+
 export const FETCH_GOAL = 'FETCH_GOAL';
 export const fetchGoal = () => ({
 	type: FETCH_GOAL
@@ -14,12 +16,12 @@ export const fetchGoalError = error => ({
 	type: FETCH_GOAL_ERROR,
 	error
 });
-const BASE_URL = 'http://localhost:8080';
+// const BASE_URL = 'http://localhost:8080';
 
 export const fetchUserGoal = () => (dispatch) => {
 	console.log('fetching goal')
 	
-	return fetch(`${BASE_URL}/api/dashboard`) //${usersId} ?
+	return fetch(`${API_BASE_URL}/api/dashboard`) //${usersId} ?
 		.then(res => res.json())
 		.then((goal) => dispatch(fetchGoalSuccess(goal)))
 		.catch(err => {
