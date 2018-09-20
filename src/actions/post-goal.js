@@ -1,4 +1,5 @@
 import {authSuccess} from './auth';
+import {API_BASE_URL} from '../config';
 
 export const POST_GOAL = 'POST_GOAL';
 export const postGoal = () => ({
@@ -17,11 +18,11 @@ export const postGoalError = error => ({
 	error
 });
 
-const BASE_URL = 'http://localhost:8080';
+// const BASE_URL = 'http://localhost:8080'; change line 25 etc 
 
 
 export const postUserGoal = (goal, userId) => (dispatch) => {  
-  return fetch(`${BASE_URL}/api/users/${userId}`, 
+  return fetch(`${API_BASE_URL}/api/users/${userId}`, 
   {
     method: 'put',
     headers: {

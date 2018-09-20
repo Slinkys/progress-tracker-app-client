@@ -1,4 +1,5 @@
 import {authSuccess} from './auth';
+import {API_BASE_URL} from '../config';
 
 export const POST_PROGRESS = 'POST_PROGRESS';
 export const postProgress = () => ({
@@ -17,11 +18,11 @@ export const postProgressError = error => ({
 	error
 });
 
-const BASE_URL = 'http://localhost:8080';
+// const BASE_URL = 'http://localhost:8080';
 
 
 export const postDailyProgress = (dailyProgress, userId) => (dispatch) => {
-  return fetch(`${BASE_URL}/api/users/${userId}`,
+  return fetch(`${API_BASE_URL}/api/users/${userId}`,
   {
     method: 'put',
     headers: {
