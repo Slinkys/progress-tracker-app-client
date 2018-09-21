@@ -83,7 +83,7 @@ export class Dashboard extends React.Component {
                     ref={input => (this.input = input)}>    
 
                     <div className="enter-progress">
-                    <h3>Number of words you wrote today: </h3> 
+                    <h3>Enter your daily progress: </h3> 
                         <input name="daily-progress" type="text" id="progress-input" 
                         onChange={e => this.setProgress(e.target.value)} 
                         ref={input => (this.input = input)} 

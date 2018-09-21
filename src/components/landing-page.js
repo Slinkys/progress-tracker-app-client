@@ -21,7 +21,7 @@ export function LandingPage(props) {
 
     return (
         <div className="home">
-            <h2>Welcome to Progress Tracker!</h2>
+            <h2>Log in or Sign up!</h2>
             <LoginForm />
             <Link to="/register">Sign up</Link>
             <InfoSection />

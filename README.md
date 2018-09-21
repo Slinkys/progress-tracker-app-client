@@ -15,12 +15,16 @@ Username: user (case sensitive)
 Password: password12
 
 ## Screenshots
-![homepage 1600px](https://user-images.githubusercontent.com/39287373/45892866-0ebc6200-bd8f-11e8-86ad-9fd61e366519.png)
-![info section 1600px](https://user-images.githubusercontent.com/39287373/45892865-0ebc6200-bd8f-11e8-89ad-d29d22c44359.png)
-![signup form 320px](https://user-images.githubusercontent.com/39287373/45892863-0e23cb80-bd8f-11e8-8adb-95abbbd8f2d6.png)
-![setup page 320px](https://user-images.githubusercontent.com/39287373/45892862-0e23cb80-bd8f-11e8-9fe2-0318f4952106.png)
-![enter progress 320px](https://user-images.githubusercontent.com/39287373/45892861-0e23cb80-bd8f-11e8-954b-e4553ba03b78.png)
-![display goal 320px](https://user-images.githubusercontent.com/39287373/45892860-0e23cb80-bd8f-11e8-9aca-768741432da4.png)
+![homepage mobile viewport](https://user-images.githubusercontent.com/39287373/45901879-23f2ba00-bdaa-11e8-9e2c-e862a991da65.png)
+This is the first page the user interacts with. They can click the info button at any time while using the app to see how to use it. 
+![info section mobile viewport](https://user-images.githubusercontent.com/39287373/45901878-23f2ba00-bdaa-11e8-8213-18c7ee2ccd2a.png)
+This is the info section where the user can find out how to use the app. 
+![signup form mobile viewport](https://user-images.githubusercontent.com/39287373/45901880-248b5080-bdaa-11e8-9ba3-cd467419ccb5.png)
+New users will have to sign up to use the app by entering their first name, last name, username, password, and password confirmation.
+![setup form mobile viewport](https://user-images.githubusercontent.com/39287373/45901877-23f2ba00-bdaa-11e8-88be-8dbfa344356c.png)
+The user will be shown this page only once in order to enter their daily goal and days until deadline. 
+![display goal mobile viewport](https://user-images.githubusercontent.com/39287373/45901876-23f2ba00-bdaa-11e8-9668-c50f90d31eba.png)
+The user will be prompted to enter their daily progress. The app will use that information to update and display their daily goal and total progress. 
 
 ### Sign-up/Login Page: 
 New users can sign up. Users who’ve signed up can login. Potential users can read about how the app works. 
