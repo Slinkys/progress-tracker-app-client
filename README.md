@@ -17,15 +17,22 @@ Password: password12
 ## Screenshots
 ![homepage mobile viewport](https://user-images.githubusercontent.com/39287373/45901879-23f2ba00-bdaa-11e8-9e2c-e862a991da65.png)
 
-![Alt text]This is the first page the user interacts with. They can click the info button at any time while using the app to see how to use it. 
+This is the first page the user interacts with. They can click the info button at any time while using the app to see how to use it. 
 
 ![info section mobile viewport](https://user-images.githubusercontent.com/39287373/45901878-23f2ba00-bdaa-11e8-8213-18c7ee2ccd2a.png)
+
 This is the info section where the user can find out how to use the app. 
+
 ![signup form mobile viewport](https://user-images.githubusercontent.com/39287373/45901880-248b5080-bdaa-11e8-9ba3-cd467419ccb5.png)
+
 New users will have to sign up to use the app by entering their first name, last name, username, password, and password confirmation.
+
 ![setup form mobile viewport](https://user-images.githubusercontent.com/39287373/45901877-23f2ba00-bdaa-11e8-88be-8dbfa344356c.png)
+
 The user will be shown this page only once in order to enter their daily goal and days until deadline. 
+
 ![display goal mobile viewport](https://user-images.githubusercontent.com/39287373/45901876-23f2ba00-bdaa-11e8-9668-c50f90d31eba.png)
+
 The user will be prompted to enter their daily progress. The app will use that information to update and display their daily goal and total progress. 
 
 ### Sign-up/Login Page: 
