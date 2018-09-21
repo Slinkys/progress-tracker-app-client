@@ -31,15 +31,15 @@ New users will have to sign up to use the app by entering their first name, last
 
 The user will be shown this page only once in order to enter their daily goal and days until deadline. 
 
-![display goal mobile viewport](https://user-images.githubusercontent.com/39287373/45901876-23f2ba00-bdaa-11e8-9668-c50f90d31eba.png)
+![display goal mobile viewport](https://user-images.githubusercontent.com/39287373/45904507-df1f5100-bdb2-11e8-84fb-2da2f5d1fcdd.png)
 
 The user will be prompted to enter their daily progress. The app will use that information to update and display their daily goal and total progress. 
 
 ### Sign-up/Login Page: 
 New users can sign up. Users who’ve signed up can login. Potential users can read about how the app works. 
-### Setup-page: 
+### Setup Page: 
 Users who’ve signed up can enter their daily goal and days until deadline.
-### Display-goal: 
+### Display Goal: 
 Users who’ve entered their daily goal and days until deadline can enter their daily progress. Users can then see their updated progress and new daily goal. 
 ## Tech Stack
 ### Front-end: 
