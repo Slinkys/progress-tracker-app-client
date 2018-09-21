@@ -17,15 +17,8 @@ export const displayGoalError = error => ({
 	error
 });
 
-// const BASE_URL = 'http://localhost:8080';
-
 
 export const displayUserGoal = (goal, userId) => (dispatch) => {
-  console.log('displaying goal')
-  
-  //get properties dailyGoal and totalDays from userId
-  //don't need req obj 
-  console.log(goal);
   return fetch(`${API_BASE_URL}/api/users/${userId}`, 
   {
     method: 'get',
@@ -35,7 +28,6 @@ export const displayUserGoal = (goal, userId) => (dispatch) => {
     body: JSON.stringify(goal)
   }) 
 
-    
 		.then(res => res.json())
 		.then((goal) => dispatch(displayGoalSuccess(goal)))
 		.catch(err => {

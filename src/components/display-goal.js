@@ -44,19 +44,19 @@ export class DisplayGoal extends React.Component {
         <div className="display-goal">
           <ul> 
             <li>Total goal: </li>
-              <li1>{this.props.currentUser.dailyGoal * this.props.currentUser.totalDays} words in {this.props.currentUser.totalDays} days</li1> 
+              <p>{this.props.currentUser.dailyGoal * this.props.currentUser.totalDays} words in {this.props.currentUser.totalDays} days</p> 
             <li>Daily goal:  </li>
-              <li1>{this.props.currentUser.dailyGoal} words per day</li1> 
+              <p>{this.props.currentUser.dailyGoal} words per day</p> 
             <li>Total progress: </li>
-              <li1>{this.calcProgress(this.props.currentUser.dailyProgress)} words in {this.props.currentUser.dailyProgress.length} day(s)</li1>
+              <p>{this.calcProgress(this.props.currentUser.dailyProgress)} words in {this.props.currentUser.dailyProgress.length} day(s)</p>
             <li>Days left: </li>
-              <li1>{this.calcDays(this.props.currentUser.totalDays, this.props.currentUser.dailyProgress)} </li1>
+              <p>{this.calcDays(this.props.currentUser.totalDays, this.props.currentUser.dailyProgress)} </p>
             <li>New total goal: </li>
-              <li1>{this.calcNewGoal(this.props.currentUser.totalDays, this.props.currentUser.dailyGoal, 
-                this.calcProgress(this.props.currentUser.dailyProgress))} words in {this.calcDays(this.props.currentUser.totalDays, this.props.currentUser.dailyProgress)} day(s)</li1>
+              <p>{this.calcNewGoal(this.props.currentUser.totalDays, this.props.currentUser.dailyGoal, 
+                this.calcProgress(this.props.currentUser.dailyProgress))} words in {this.calcDays(this.props.currentUser.totalDays, this.props.currentUser.dailyProgress)} day(s)</p>
             <li>New daily goal: </li>
-              <li1>{this.calcNewDailyGoal(this.props.currentUser.totalDays, this.props.currentUser.dailyProgress, this.props.currentUser.dailyGoal, 
-                this.calcProgress(this.props.currentUser.dailyProgress))} words per day</li1>
+              <p>{this.calcNewDailyGoal(this.props.currentUser.totalDays, this.props.currentUser.dailyProgress, this.props.currentUser.dailyGoal, 
+                this.calcProgress(this.props.currentUser.dailyProgress))} words per day</p>
           </ul>
         </div>
       </main>

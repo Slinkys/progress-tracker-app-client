@@ -40,6 +40,14 @@
   }
 } 
 
+.setup {
+  text-align: center;
+}
+
+.daily-goal, .total-days {
+  display: inline-block;
+  text-align: center;
+}
 
 
 

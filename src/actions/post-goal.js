@@ -18,8 +18,6 @@ export const postGoalError = error => ({
 	error
 });
 
-// const BASE_URL = 'http://localhost:8080'; change line 25 etc 
-
 
 export const postUserGoal = (goal, userId) => (dispatch) => {  
   return fetch(`${API_BASE_URL}/users/${userId}`, 

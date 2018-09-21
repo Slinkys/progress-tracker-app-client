@@ -18,8 +18,6 @@ export const postProgressError = error => ({
 	error
 });
 
-// const BASE_URL = 'http://localhost:8080';
-
 
 export const postDailyProgress = (dailyProgress, userId) => (dispatch) => {
   return fetch(`${API_BASE_URL}/users/${userId}`,

@@ -16,12 +16,11 @@ export const fetchGoalError = error => ({
 	type: FETCH_GOAL_ERROR,
 	error
 });
-// const BASE_URL = 'http://localhost:8080';
 
 export const fetchUserGoal = () => (dispatch) => {
 	console.log('fetching goal')
 	
-	return fetch(`${API_BASE_URL}/api/dashboard`) //${usersId} ?
+	return fetch(`${API_BASE_URL}/api/dashboard`) 
 		.then(res => res.json())
 		.then((goal) => dispatch(fetchGoalSuccess(goal)))
 		.catch(err => {
