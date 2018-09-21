@@ -25,7 +25,7 @@ describe('reducer', () => {
       let authToken;
       state = reducer(state, setAuthToken());
       expect(state).toEqual({
-        authToken, //should be null or undefined? initially would be undefined?
+        authToken, 
         currentUser: null, 
         loading: false,
         error: null

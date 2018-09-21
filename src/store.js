@@ -21,11 +21,7 @@ const store = createStore(
     composeEnhancers(applyMiddleware(thunk))
 );
 
-
-// With the JWT stored, all that remains for persistence to work is 
-// to reload the token when the application loads. We do this in src/store.js:
-// Hydrate the authToken from localStorage if it exists:
-const authToken = loadAuthToken(); //loadAuthToken func defined in local-storage.js
+const authToken = loadAuthToken(); 
 if (authToken) {
     const token = authToken;
     store.dispatch(setAuthToken(token));
