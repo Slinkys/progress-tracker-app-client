@@ -14,4 +14,7 @@ h1 {
 .logOutButton{
   margin-bottom: 30px;
   text-align: center;
+  font-size: 10px;
+  border: solid 1px;
+  border-radius: 8px;
 }   

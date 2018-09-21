@@ -12,10 +12,15 @@
   font-size: 17px;
 }
 
-.button {
-  text-align: center;
-}
-.submit-button {
+.setup-page {
+  text-align: center; 
+}  
+
+.setup-page button {
+  font-size: 10px;
+  border: solid 1px;
+  border-radius: 8px;
+  text-align: left;
   display: inline-block;
 }
 
