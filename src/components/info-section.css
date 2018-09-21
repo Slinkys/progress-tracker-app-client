@@ -1,5 +1,6 @@
 #info {
   padding: 2rem;
+  text-align: center;
 }
 
 #info:focus {
@@ -20,7 +21,12 @@
   }
 } 
 
-.info {
-  text-align: center;
+#info ul {
+  display: inline-block;
 }
+
+#info ul li {
+  text-align: left;
+}
+
 
