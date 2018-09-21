@@ -16,7 +16,9 @@ Password: password12
 
 ## Screenshots
 ![homepage mobile viewport](https://user-images.githubusercontent.com/39287373/45901879-23f2ba00-bdaa-11e8-9e2c-e862a991da65.png)
-This is the first page the user interacts with. They can click the info button at any time while using the app to see how to use it. 
+
+![Alt text]This is the first page the user interacts with. They can click the info button at any time while using the app to see how to use it. 
+
 ![info section mobile viewport](https://user-images.githubusercontent.com/39287373/45901878-23f2ba00-bdaa-11e8-8213-18c7ee2ccd2a.png)
 This is the info section where the user can find out how to use the app. 
 ![signup form mobile viewport](https://user-images.githubusercontent.com/39287373/45901880-248b5080-bdaa-11e8-9ba3-cd467419ccb5.png)
