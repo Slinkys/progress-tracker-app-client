@@ -5,7 +5,7 @@ Progress Tracker lets you set daily goals and track your actual daily progress t
 ## Description
 This app allows users to set their daily goals and enter a deadline. Users can then enter their daily progress and Progress Tracker will update their progress and daily goal so they know how much they need to do each day to meet their deadline. 
 
-## Link to Application **
+## Link to Application
 https://progress-tracker-app-client.herokuapp.com/
 
 ### Dummy user account for demo purposes
