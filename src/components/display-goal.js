@@ -65,7 +65,6 @@ export class DisplayGoal extends React.Component {
 } 
 
 const mapStateToProps = state => {
-  // console.log(state);
     return {
       protectedData: state.protectedData.data,
       goalSaved: state.auth.currentUser.dailyGoal !== 0,

@@ -18,8 +18,6 @@ export const fetchGoalError = error => ({
 });
 
 export const fetchUserGoal = () => (dispatch) => {
-	console.log('fetching goal')
-	
 	return fetch(`${API_BASE_URL}/api/dashboard`) 
 		.then(res => res.json())
 		.then((goal) => dispatch(fetchGoalSuccess(goal)))

@@ -31,7 +31,6 @@ export function LandingPage(props) {
 
 const mapStateToProps = state => ({
     currentUser: state.auth.currentUser,
-    
     loggedIn: state.auth.currentUser !== null,
 });
 

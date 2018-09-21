@@ -17,7 +17,6 @@ export const registerUser = user => dispatch => {
             console.log(err);
             const {reason, message, location} = err;
             if (reason === 'ValidationError') {
-                // Convert ValidationErrors into SubmissionErrors for Redux Form
                 return Promise.reject(
                     new SubmissionError({
                         [location]: message

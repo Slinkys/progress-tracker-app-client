@@ -8,9 +8,4 @@ describe(<RegistrationPage />, () => {
     shallow(<RegistrationPage/>);
   });
 
-  it('Renders the login link', () => {
-    const wrapper = shallow(<Login/>);
-    expect(wrapper.hasClass('home')).toEqual(true);
-  })
-
 });

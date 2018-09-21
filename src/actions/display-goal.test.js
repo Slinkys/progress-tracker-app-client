@@ -9,7 +9,7 @@ describe('displayGoal', () => {
 
 describe('displayGoalSuccess', () => { 
   it('Should return the action', () => {
-    const goal = 'goal'; //a number? **
+    const goal = 'goal'; 
     const action = displayGoalSuccess(goal);
     expect(action.type).toEqual(DISPLAY_GOAL_SUCCESS);
   });
