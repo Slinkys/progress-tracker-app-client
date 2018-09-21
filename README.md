@@ -15,7 +15,7 @@ Username: user (case sensitive)
 Password: password12
 
 ## Screenshots
-![homepage mobile viewport](https://user-images.githubusercontent.com/39287373/45901879-23f2ba00-bdaa-11e8-9e2c-e862a991da65.png)
+![homepage mobile viewport](https://user-images.githubusercontent.com/39287373/45904243-1b05e680-bdb2-11e8-97af-b0c724f60e8e.png)
 
 This is the first page the user interacts with. They can click the info button at any time while using the app to see how to use it. 
 
