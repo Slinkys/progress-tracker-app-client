@@ -23,7 +23,7 @@ This is the first page the user interacts with. They can click the info button a
 
 This is the info section where the user can find out how to use the app. 
 
-![signup form mobile viewport](https://user-images.githubusercontent.com/39287373/45901880-248b5080-bdaa-11e8-9ba3-cd467419ccb5.png)
+![signup form mobile viewport](https://user-images.githubusercontent.com/39287373/45904350-63250900-bdb2-11e8-9278-0c1905453ba5.png)
 
 New users will have to sign up to use the app by entering their first name, last name, username, password, and password confirmation.
 
