@@ -1,5 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import {Field, reduxForm} from 'redux-form'
+import Input from './input';
 import {postUserGoal} from '../actions/post-goal'; 
 import './setup-page.css';
 
@@ -40,24 +42,39 @@ export class SetupPage extends React.Component {
     render() {
         
         return (
-          <main className="setup-page">
+        //   <main className="setup-page">
             <form 
               className="setup-form"
               onSubmit={e => this.onSubmit(e)} 
               ref={input => (this.input = input)}> 
-                    <div className="daily-goal">
-                    <label htmlFor="daily-goal">Daily goal: </label>
-                    <input name="daily-goal" type="text" id="goal-input" value={this.state.dailyGoal}
+                    {/* <div className="daily-goal"> */}
+                    {/* <label htmlFor="daily-goal">Daily goal: </label> */}
+                    <Field
+                        component={Input}
+                        label="Daily goal: " 
+                        name="daily-goal" 
+                        type="text" 
+                        id="goal-input" 
+                        value={this.state.dailyGoal}
                         onChange={e => this.setGoals(e.target.value)}/> 
-                    </div>
-                    <div className="total-days">
-                    <label htmlFor="total-days">Days until deadline: </label>
-                        <input name="total-days" type="text" id="deadline-input" value={this.state.totalDays} 
+                    {/* </div> */}
+                    {/* <div className="total-days"> */}
+                    {/* <label htmlFor="total-days">Days until deadline: </label> */}
+                    <Field 
+                        component={Input}
+                        label="Days until deadline: "
+                        name="total-days" 
+                        type="text" 
+                        id="deadline-input" 
+                        value={this.state.totalDays} 
                         onChange={e => this.setDays(e.target.value)}/>
-                    </div>
-                <button type="submit">Submit</button> 
+                    {/* </div> */}
+                <button disabled={this.props.pristine || this.props.submitting}>
+                    Submit
+                </button>        
+                {/* <button type="submit">Submit</button>  */}
             </form> 
-          </main>
+        //   </main>
         );
     }
 }
@@ -69,4 +86,8 @@ const mapStateToProps = state => {
     };
 };
 
-export default (connect(mapStateToProps)(SetupPage)); 
+// export default (connect(mapStateToProps)(SetupPage)); 
+export default reduxForm({
+    form: 'setup',
+    onSubmitFail: (errors) => (console.log('error'))
+})(SetupPage);   

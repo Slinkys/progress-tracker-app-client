@@ -24,7 +24,7 @@ export class HeaderBar extends React.Component {
             <header className="header-bar"> 
                 <TopNav 
                 />
-                <h1>Progress Tracker</h1>
+                <h1>Word Count Tracker</h1>
                 {logOutButton}
             </header>
         );

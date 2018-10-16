@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .header-bar {
   width: 100%;
   text-align: center;
 } 
 
 h1 {
+  font-family: 'Bree Serif', serif;
   font-weight: 900;
   font-size: 3em;
   padding: 0.8em;
-  color: olive;
+  color: black;
   padding-bottom: 5px;
 }
 
